@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h3>{{ pokemon.name }}</h3>
+<p># {{ pokemon.pid }}</p>
+<p><img src="{{ pokemon.qr_code_image.url }}"/></p>
+
+{% endblock %}
